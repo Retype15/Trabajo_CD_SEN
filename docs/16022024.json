@@ -1,0 +1,96 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2024-02-16",
+            "dia": "16 febrero 2024",
+            "url": "http://www.cubadebate.cu/noticias/2024/02/16/une-se-pronostica-una-afectacion-de-925-mw-para-el-horario-pico/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2045,
+            "demanda_max": 2900,
+            "deficit": 855,
+            "pronostico": {
+                "afectacion": 925
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1900,
+                "demanda": 1980,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 500
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 409,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Nuevitas"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 75,
+                    "razon": "combustible",
+                    "mw_afectados": 980
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de motores de Generación Distribuida que están a la espera de mantenimiento",
+                    "razon": "autorización de uso",
+                    "cantidad_mw": 35
+                },
+                {
+                    "desc": "entrada de 4 motores en la Patana de Melones",
+                    "razon": "mantenimiento",
+                    "cantidad_mw": 65
+                },
+                {
+                    "desc": "entrada de la unidad 1 de Energas Varadero y el completamiento de la unidad 4 en esta misma central",
+                    "razon": "mantenimiento",
+                    "cantidad_mw": 45
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 827,
+            "hora": "18:40",
+            "desc": "coincidiendo con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "afectación del servicio por déficit de capacidad de generación",
+            "horas": 16,
+            "hora_rest": "22:53"
+        }
+    }
+}

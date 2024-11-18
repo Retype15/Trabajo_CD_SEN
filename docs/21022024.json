@@ -1,0 +1,100 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2024-02-21",
+            "dia": "21 febrero 2024",
+            "url": "http://www.cubadebate.cu/noticias/2024/02/21/une-pronostica-afectacion-de-720-mw-durante-pico-nocturno-de-este-miercoles/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 2050,
+            "demanda_max": 2700,
+            "deficit": 650,
+            "pronostico": {
+                "afectacion": 720
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1917,
+                "demanda": 1750,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 300
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 456,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Nuevitas"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 88,
+                    "razon": "combustible",
+                    "mw_afectados": 1010
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de motores de Generación Distribuida que están a la espera de mantenimiento",
+                    "razon": "autorización de uso",
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "entrada de la unidad 2 de la termoeléctrica Santa Cruz",
+                    "razon": "mantenimiento",
+                    "cantidad_mw": 60
+                },
+                {
+                    "desc": "completamiento de las unidades de la Renté",
+                    "razon": "mantenimiento",
+                    "cantidad_mw": 43
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 598,
+            "hora": "18:40",
+            "desc": "coincidiendo con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "afectación del servicio por déficit de capacidad de generación",
+            "horas": 10,
+            "hora_rest": "20:43"
+        }
+    }
+}
