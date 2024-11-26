@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240218",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/18/union-electrica-pronostica-un-deficit-de-957-mw-para-pico-nocturno/",
+    "prediction": {
+        "availability": 2063,
+        "demand_max": 2950,
+        "impact": 957,
+        "deficit": 887,
+        "backup": 100
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 1963,
+        "demand": 2011,
+        "deficit": 48
+    },
+    "broken": {
+        "FT": [2]
+    },
+    "maintenance": {
+        "MA": [8],
+        "SC": [3],
+        "FT": [6]
+    },
+    "limitations": 404,
+    "distributed": {
+        "motors_with_problems": 85,
+        "total_impact": 742,
+        "combustible_problems": 742,
+        "ships_with_problems": 10,
+        "motors_impact": 67
+    },
+    "impact": {
+        "total_hours": "1741",
+        "max": 1085,
+        "max_hour": "1850"
+    }
+}

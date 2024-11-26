@@ -1,0 +1,40 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "20240224",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/24/une-pronostica-una-afectacion-de-905-mw-en-el-horario-pico/",
+    "prediction": {
+        "availability": 1915,
+        "demand_max": 2750,
+        "impact": 905,
+        "deficit": 835,
+        "backup": 95
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 1820,
+        "demand": 1780,
+        "deficit": 40
+    },
+    "broken": {
+        "MA": [6],
+        "SC": [1, 2],
+        "FT": [2]
+    },
+    "maintenance": {
+        "MA": [8],
+        "NC": [6]
+    },
+    "limitations": 380,
+    "distributed": {
+        "motors_with_problems": 83,
+        "total_impact": 965,
+        "combustible_problems": 15,
+        "ships_with_problems": 123,
+        "motors_impact": 123
+    },
+    "impact": {
+        "total_hours": "1339",
+        "max": 817,
+        "max_hour": "1840"
+    }
+}

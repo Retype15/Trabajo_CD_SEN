@@ -1,0 +1,40 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240219",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/19/union-electrica-estima-una-afectacion-diurna-de-450-mw/",
+    "prediction": {
+        "availability": 2115,
+        "demand_max": 2850,
+        "impact": 805,
+        "deficit": 735,
+        "backup": 95
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2020,
+        "demand": 1920,
+        "deficit": 0
+    },
+    "broken": {
+        "SC": [2],
+        "FT": [2]
+    },
+    "maintenance": {
+        "MA": [8],
+        "SC": [3],
+        "NU": [6]
+    },
+    "limitations": 359,
+    "distributed": {
+        "motors_with_problems": 85,
+        "total_impact": 924,
+        "combustible_problems": 924,
+        "ships_with_problems": 0,
+        "motors_impact": 73
+    },
+    "impact": {
+        "total_hours": "1505",
+        "max": 760,
+        "max_hour": "1850"
+    }
+}

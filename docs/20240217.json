@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240217",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/17/une-pronostica-deficit-de-980-mw-durante-pico-nocturno-de-este-sabado/",
+    "prediction": {
+        "availability": 2190,
+        "demand_max": 3100,
+        "impact": 980,
+        "deficit": 910,
+        "backup": 58
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 1807,
+        "demand": 2000,
+        "deficit": 193
+    },
+    "broken": {
+        "FT": [2]
+    },
+    "maintenance": {
+        "MA": [8],
+        "SC": [3],
+        "NU": [6]
+    },
+    "limitations": 409,
+    "distributed": {
+        "motors_with_problems": 89,
+        "total_impact": 1105,
+        "combustible_problems": 13,
+        "ships_with_problems": 180,
+        "motors_impact": 65
+    },
+    "impact": {
+        "total_hours": "1902",
+        "max": 924,
+        "max_hour": "1850"
+    }
+}

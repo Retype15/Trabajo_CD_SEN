@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240222",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/22/une-pronostica-afectacion-de-873-mw-durante-pico-nocturno-de-este-jueves/",
+    "prediction": {
+        "availability": 1997,
+        "demand_max": 2800,
+        "impact": 873,
+        "deficit": 803,
+        "backup": 47
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 1950,
+        "demand": 1720,
+        "deficit": 0
+    },
+    "broken": {
+        "FT": [2]
+    },
+    "maintenance": {
+        "MA": [8],
+        "SC": [6],
+        "FT": [1, 3]
+    },
+    "limitations": 362,
+    "distributed": {
+        "motors_with_problems": 86,
+        "total_impact": 865,
+        "combustible_problems": 865,
+        "ships_with_problems": 17,
+        "motors_impact": 105
+    },
+    "impact": {
+        "total_hours": "0918",
+        "max": 770,
+        "max_hour": "1840"
+    }
+}
