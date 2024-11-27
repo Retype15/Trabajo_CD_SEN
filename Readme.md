@@ -6,7 +6,7 @@
 ```json
 {
     "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "", //Format: "YYmmdd", Example: "20240812"
+    "date": "YYmmdd",
     "url": "", 
     "prediction": {
         "availability": ,  
@@ -16,10 +16,10 @@
         "backup": 
     },
     "morning_info": {
-        "time": "", //Format: "HHmm", Example: "0730"
+        "time": "HHmm",
         "availability": , 
         "demand": , 
-        "deficit":  
+        "deficit": 
     },
 	
     "broken": {
@@ -33,16 +33,16 @@
     "distributed": {
         "motors_with_problems": ,
         "total_impact": ,
-        "combustible_problems": , // that mean centrales de generación distribuida with fuel problems
-        "ships_with_problems": , // that mean patanas with problems
+        "combustible_problems": ,
+        "ships_with_problems": ,
         "motors_impact": 
     },
     "impact": {
-        "total_hours": //Format: "HHmm", Example: "0730",
+        "total_hours": "HHmm",
         "max": ,
-        "max_hour": //Format: "HHmm", Example: "0730" 
+        "max_hour": "HHmm"
     }
 }
 ```
 
-<!-- http://www.cubadebate.cu/noticias/2024/02/15/?s=afectacion -->
+<!-- http://www.cubadebate.cu/noticias/2024/02/12/?s=afectacion -->
